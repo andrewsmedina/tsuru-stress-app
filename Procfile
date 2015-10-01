@@ -1,1 +1,1 @@
-web: stress --cpu 1
+web: stress ${STRESS:---cpu 1}
